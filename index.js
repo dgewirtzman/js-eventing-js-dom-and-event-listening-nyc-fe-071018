@@ -2,7 +2,8 @@ const main = document.querySelector('#main')
 const paragraph = document.querySelector('p')
 
 main.addEventListener('click', (event) => {
-  //alert('Weeeeee! I was clicked!')
+  console.log(event)
+  alert('Weeeeee! I was clicked!')
 })
 
 paragraph.addEventListener('click', (event) => {
