@@ -12,7 +12,6 @@ for (div of allTheDivs) {
   div.addEventListener('click', bubble, true)
 }
 
-
 main.addEventListener('click', (event) => {
   console.log(event)
   alert('Weeeeee! I was clicked!')
