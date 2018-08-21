@@ -23,3 +23,6 @@ paragraph.addEventListener('click', (event) => {
   console.log('You clicked the p!')
 })
 
+input.addEventListener('keydown', (event) => {
+  console.log(event)
+})
