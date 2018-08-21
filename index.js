@@ -3,7 +3,9 @@ const paragraph = document.querySelector('p')
 
 let divs = document.querySelectorAll('div')
 
-
+function bubble(event) {
+  
+}
 
 /*
 main.addEventListener('click', (event) => {
