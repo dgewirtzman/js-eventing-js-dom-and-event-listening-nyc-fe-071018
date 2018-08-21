@@ -1,5 +1,6 @@
 const main = document.querySelector('#main')
 const paragraph = document.querySelector('p')
+const input = document.querySelector('input')
 
 let allTheDivs = document.querySelectorAll('div')
 
@@ -21,3 +22,4 @@ paragraph.addEventListener('click', (event) => {
   paragraph.style.backgroundColor = 'yellow'
   console.log('You clicked the p!')
 })
+
