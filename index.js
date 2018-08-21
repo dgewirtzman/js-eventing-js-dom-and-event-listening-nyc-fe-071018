@@ -12,7 +12,7 @@ for (div of allTheDivs) {
   div.addEventListener('click', bubble, true)
 }
 
-/*
+
 main.addEventListener('click', (event) => {
   console.log(event)
   alert('Weeeeee! I was clicked!')
@@ -22,4 +22,3 @@ paragraph.addEventListener('click', (event) => {
   paragraph.style.backgroundColor = 'yellow'
   console.log('You clicked the p!')
 })
-*/
