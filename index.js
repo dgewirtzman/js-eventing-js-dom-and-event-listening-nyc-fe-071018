@@ -24,6 +24,7 @@ paragraph.addEventListener('click', (event) => {
 })
 
 input.addEventListener('keydown', (event) => {
+  const nums = []
   if (event.keyCode === 71) {
     event.preventDefault()
   }
